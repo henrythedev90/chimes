@@ -1,0 +1,7 @@
+.chimes_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+}
