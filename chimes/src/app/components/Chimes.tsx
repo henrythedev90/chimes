@@ -9,11 +9,12 @@ const Chimes = () => {
   const handleHover = (note: string) => {
     const synth = new Tone.Synth().toDestination();
     synth.triggerAttackRelease(note, "8n");
+    Tone.start();
   };
   return (
     <div className={classes.chimes_container}>
       {NOTES.map((note, index) => (
-        <Chime key={index} note={note.note} onPlay={handleHover} />
+        <Chime key={index} note={note.note} size={index} onPlay={handleHover} />
       ))}
     </div>
   );
