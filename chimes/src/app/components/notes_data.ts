@@ -14,11 +14,4 @@ export const NOTES: { note: string }[] = [
   { note: "A5" },
   { note: "B5" },
   { note: "C6" },
-  { note: "D6" },
-  { note: "E6" },
-  { note: "F6" },
-  { note: "G6" },
-  { note: "A6" },
-  { note: "B6" },
-  { note: "C7" },
 ];

@@ -3,22 +3,11 @@
   height: 100px;
   background: linear-gradient(135deg, #8b4513, #d2691e);
   border-radius: 5px;
-  transition: transform 0.3s, box-shadow 0.3s;
-  animation: sway 2s infinite ease-in-out;
+  transition: box-shadow 0.3s;
   transform-origin: top center;
 }
 
 .chime:hover {
   transform: scale(1.1);
   box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
-}
-
-@keyframes sway {
-  0%,
-  100% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(5deg);
-  }
 }
